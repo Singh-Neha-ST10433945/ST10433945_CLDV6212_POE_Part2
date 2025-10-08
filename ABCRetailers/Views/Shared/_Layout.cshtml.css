@@ -1,0 +1,121 @@
+﻿/* === Modern Light Blue & White Navbar + Footer Theme === */
+/* Inspired by Microsoft minimal style, adjusted for softer, user-friendly colors */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-weight: 600;
+    color: #1e6fb8 !important;
+}
+
+    a.navbar-brand:hover {
+        color: #0077cc !important;
+    }
+
+/* General links */
+a {
+    color: #1e6fb8;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+    a:hover {
+        color: #0a58ca;
+    }
+
+/* === Buttons === */
+.btn-primary {
+    color: #fff;
+    background: linear-gradient(135deg, #63b3ed, #1e90ff);
+    border: 1px solid #1e90ff;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(30, 144, 255, 0.25);
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #1e90ff, #63b3ed);
+        border-color: #0077cc;
+        box-shadow: 0 6px 16px rgba(30, 144, 255, 0.3);
+    }
+
+/* === Nav Pills === */
+.nav-pills .nav-link {
+    color: #1f3b4d;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+    .nav-pills .nav-link:hover {
+        background-color: rgba(99, 179, 237, 0.2);
+        color: #1e6fb8;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        color: white;
+        background: linear-gradient(135deg, #63b3ed, #1e90ff);
+        border-color: #1e90ff;
+        box-shadow: 0 4px 10px rgba(30, 144, 255, 0.3);
+    }
+
+/* === Borders & Shadows === */
+.border-top {
+    border-top: 1px solid #b9dcf5 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #b9dcf5 !important;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 12px rgba(99, 179, 237, 0.15) !important;
+}
+
+/* === Policy Button === */
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+    background: linear-gradient(135deg, #a2d2ff, #63b3ed);
+    border: none;
+    border-radius: 6px;
+    color: #1f3b4d;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+    button.accept-policy:hover {
+        background: linear-gradient(135deg, #63b3ed, #1e90ff);
+        color: white;
+        box-shadow: 0 4px 12px rgba(99, 179, 237, 0.3);
+    }
+
+/* === Footer Styling === */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #f0f8ff, #d9ecff);
+    border-top: 1px solid #b9dcf5;
+    color: #1f3b4d;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 60px;
+    font-size: 0.95rem;
+    box-shadow: 0 -4px 12px rgba(99, 179, 237, 0.1);
+}
+
+    .footer a {
+        color: #1e6fb8;
+        font-weight: 500;
+        margin: 0 0.25rem;
+    }
+
+        .footer a:hover {
+            color: #0a58ca;
+            text-decoration: underline;
+        }
